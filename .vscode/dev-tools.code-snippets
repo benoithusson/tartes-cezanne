@@ -1,0 +1,47 @@
+
+{
+    "createClassComponent": {
+        "prefix": "BenoitClassComponent",
+        "body": [
+            "import React from 'react;'",
+            "import styles from '';",
+            "",
+            "class Name extends React.Component {",
+            "",
+            "   constructor(props) {",
+            "       super(props);",
+            "       this.state = {};",
+            "   }",
+            "",
+            "   render() {",
+            "       return (",
+            "           <div> ",
+            "               CLASS COMPONENT",
+            "           </div> ",
+            "       )",
+            "   }",
+            "}",
+            "",
+            "export default Name;"
+        ],
+        "description": "Create an empty React Class Component with constructor, super, empty state"
+    },
+    "createFunctionalComponent": {
+        "prefix": "BenoitFunctionalComponent",
+        "body": [
+            "import React from 'react;'",
+            "import styles from '';",
+            "",
+            "const Name = () => {",
+            "   return (",
+            "       <div>",
+            "           FUNCTIONAL COMPONENT",
+            "       </div>",
+            "   )",
+            "",
+            "}",
+            "",
+            "export default Name;"
+        ]
+    }
+}

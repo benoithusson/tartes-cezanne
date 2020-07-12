@@ -1,0 +1,51 @@
+
+.navBarContainer {
+    width: 100%;
+    height: 60px;
+    display: flex;   
+    align-items: center;
+    justify-content: center; 
+    background-color: rgba(163, 163, 163, 0.3);
+    font-family: 'Parisienne', cursive;
+
+    .linkContainer {
+        width: 180px;
+        height: 50px;
+        margin: 0 8px 0 8px;        
+        // border-bottom: 1px solid rgba(26, 109, 44, 0.2);
+        a {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            display: flex;   
+            align-items: center;
+            justify-content: center; 
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            font-weight: 900;
+            transition: all 0.2s;
+        }
+        a:hover {
+            font-size: 25px;
+        }
+
+        // a::before {
+        //     content: "";
+        //     // <a> is a inline element. <a> is now as big and as high as its parent bloc
+        //     width: 100%;
+        //     height: 100%;
+        //     // put content at bottom left of <a>
+        //     position: absolute;
+        //     top: 0;
+        //     left: 0;
+        //     transform: scaleY(0); // to affect the size on vertical axe of an element. If value < 1 = decrease of scale 
+        //     transform-origin: bottom; // Change the origin point for an element's transformation. Transformation begins at bottom
+        //     background-color: rgba(163, 163, 163, 0.3);
+        //     transition: all 0.3s;
+        // }
+        // a:hover::before {
+        //     transform: scaleY(1); // if value > 1 = increase of the scale
+        // } 
+    }
+}
