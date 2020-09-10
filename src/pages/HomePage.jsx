@@ -35,7 +35,7 @@ class HomePage extends React.Component {
                     and friendly professional service in an environment that stimulates the senses."
                     imageSectionBloc={imageCroissants}
                     flexDirectionDefault="row-reverse"
-                    linkSectionBloc="Wo wir sind"
+                    linkSectionBloc="Wo wir sind ?"
                     />
 
                 <SectionBloc 
