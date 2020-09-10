@@ -35,7 +35,7 @@ class HomePage extends React.Component {
                     and friendly professional service in an environment that stimulates the senses."
                     imageSectionBloc={imageCroissants}
                     flexDirectionDefault="row-reverse"
-                    linkSectionBloc="Wo wir sind"
+                    linkSectionBloc="Wo wir sind ?"
                     />
 
                 <SectionBloc 
@@ -43,7 +43,7 @@ class HomePage extends React.Component {
                     textSectionBloc="We are passionate about 
                     soucing our produce locally and you'll always 
                     find the season on our menu. We especially love tropical produce 
-                    and we're always featuring the best of the tropics."
+                    and we're always featuring the best of the tropics !"
                     imageSectionBloc={imageTarteFlambee}
                     linkSectionBloc="Unsere Feintkostladen entdecken"
                 />
