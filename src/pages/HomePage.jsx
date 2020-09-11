@@ -43,7 +43,7 @@ class HomePage extends React.Component {
                     textSectionBloc="We are passionate about 
                     soucing our produce locally and you'll always 
                     find the season on our menu. We especially love tropical produce 
-                    and we're always featuring the best of the tropics !"
+                    and we're always featuring the best of the tropics YOUHOU"
                     imageSectionBloc={imageTarteFlambee}
                     linkSectionBloc="Unsere Feintkostladen entdecken"
                 />
