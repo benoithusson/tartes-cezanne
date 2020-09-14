@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import backgroundImage from '../../assets/images/background_bloc_section.jpg';
 
 const BlocWrapper = styled.div`
     width: 100%;
@@ -10,19 +11,25 @@ const BlocWrapper = styled.div`
     margin: 5px 0 5px 0;
 `;
 
-const SubBloc = styled.div`
+// background-color: background-color: ${props => props.newBgColor || 'ivory'};;
+const BlocText = styled.div`
     width: 50%;
     height: 500px;
-    background-color: ${props => props.newBgColor || 'ivory'};
-    img {
-        width: 100%;
-        height: 100%;
-    }
+    background-image: url(${backgroundImage});
     h2 {
         font-size: ${props => props.newFontSize || '50px'};
         font-weight: ${props => props.newFontWeight || 'lighter'};
         padding: 0 30px 0 30px;
         font-family: 'Fredericka the Great', cursive;
+    }
+`;
+
+const BlocImage = styled.div`
+    width: 50%;
+    height: 500px;
+    img {
+        width: 100%;
+        height: 100%;
     }
 `;
 
@@ -68,7 +75,13 @@ const Bloc = styled.div`
 
 const SectionBloc = (props) => {
 
-    const { imageSectionBloc, altAttribute, textSectionBloc, titleSectionBloc, linkSectionBloc } = props;
+    const {
+        imageSectionBloc,
+        altAttribute,
+        textSectionBloc,
+        titleSectionBloc,
+        linkSectionBloc
+    } = props;
 
     return (
 
@@ -76,20 +89,20 @@ const SectionBloc = (props) => {
 
             {
                 imageSectionBloc &&
-                <SubBloc>
+                <BlocImage>
                     <img src={imageSectionBloc} alt={altAttribute} />
-                </SubBloc>
+                </BlocImage>
             }
 
             {
                 textSectionBloc &&
-                <SubBloc>
+                <BlocText>
                     <h2>{titleSectionBloc}</h2>
                     <Bloc>
                         <p>{textSectionBloc}</p>
                         <a href="">{linkSectionBloc}</a>
                     </Bloc>
-                </SubBloc>
+                </BlocText>
             }
 
         </BlocWrapper>
