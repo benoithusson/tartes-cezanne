@@ -1,13 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-
-// Créer styled component 
-// Puis-je utiliser .class dans le styled component ?
-// url des images ? centraliser tout sur la page _variables.scss
-// Styled compoent pour pouvoir créer un bloc avec text d'abord image ensuite
-// et un autre bloc avec image d'abord et text ensuite
-// variables avec styled component ?
-// Comment supprimer despace entre deux bloc avec flexbox
+import backgroundImage from '../../assets/images/background_bloc_section.jpg';
 
 const BlocWrapper = styled.div`
     width: 100%;
@@ -18,14 +11,11 @@ const BlocWrapper = styled.div`
     margin: 5px 0 5px 0;
 `;
 
-const SubBloc = styled.div`
+// background-color: background-color: ${props => props.newBgColor || 'ivory'};;
+const BlocText = styled.div`
     width: 50%;
     height: 500px;
-    background-color: ${props => props.newBgColor || 'ivory'};
-    img {
-        width: 100%;
-        height: 100%;
-    }
+    background-image: url(${backgroundImage});
     h2 {
         font-size: ${props => props.newFontSize || '50px'};
         font-weight: ${props => props.newFontWeight || 'lighter'};
@@ -33,7 +23,16 @@ const SubBloc = styled.div`
         font-family: 'Fredericka the Great', cursive;
     }
 `;
-    
+
+const BlocImage = styled.div`
+    width: 50%;
+    height: 500px;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+`;
+
 const Bloc = styled.div`
     width: 100%;
     p {
@@ -75,33 +74,39 @@ const Bloc = styled.div`
 
 
 const SectionBloc = (props) => {
-    
-    const { imageSectionBloc, altAttribute, textSectionBloc, titleSectionBloc, linkSectionBloc } = props;
 
-   return (
-       
-       <BlocWrapper flexDirectionDefault={props.flexDirectionDefault}>
+    const {
+        imageSectionBloc,
+        altAttribute,
+        textSectionBloc,
+        titleSectionBloc,
+        linkSectionBloc
+    } = props;
 
-           {
+    return (
+
+        <BlocWrapper flexDirectionDefault={props.flexDirectionDefault}>
+
+            {
                 imageSectionBloc &&
-                <SubBloc>
+                <BlocImage>
                     <img src={imageSectionBloc} alt={altAttribute} />
-                </SubBloc>
+                </BlocImage>
             }
 
             {
-                textSectionBloc && 
-                <SubBloc >
+                textSectionBloc &&
+                <BlocText>
                     <h2>{titleSectionBloc}</h2>
                     <Bloc>
                         <p>{textSectionBloc}</p>
                         <a href="">{linkSectionBloc}</a>
                     </Bloc>
-                </SubBloc>
+                </BlocText>
             }
 
-       </BlocWrapper>
-   )
+        </BlocWrapper>
+    )
 }
 
 export default SectionBloc;
