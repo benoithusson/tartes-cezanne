@@ -47,8 +47,11 @@ class HomePage extends React.Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 1f24d44... test 2
+=======
+>>>>>>> parent of 6779466... test 3
                     and we're always featuring the best of the tropics"
                     imageSectionBloc={imageTarteFlambee}
                     linkSectionBloc="Unsere Feintkostladen entdecken"
@@ -59,6 +62,7 @@ class HomePage extends React.Component {
                     imageSectionBloc={imageTarteFlambee}
                     linkSectionBloc="Unsere Feintkostladen entdecken."
 >>>>>>> parent of 458e88c... Revert "Changes for git revert training"
+<<<<<<< HEAD
 =======
                     and we're always featuring the best of the tropics !"
                     imageSectionBloc={imageTarteFlambee}
@@ -66,6 +70,8 @@ class HomePage extends React.Component {
 >>>>>>> parent of cbf7fd3... test
 =======
 >>>>>>> parent of 1f24d44... test 2
+=======
+>>>>>>> parent of 6779466... test 3
                     test="../../assets/images/background_bloc_section.jpg"
                 />
             </div>
