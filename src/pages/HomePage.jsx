@@ -36,6 +36,7 @@ class HomePage extends React.Component {
                     imageSectionBloc={imageCroissants}
                     flexDirectionDefault="row-reverse"
                     linkSectionBloc="Wo wir sind ?"
+                    test="../../assets/images/background_bloc_section.jpg"
                 />
 
                 <SectionBloc
@@ -43,9 +44,9 @@ class HomePage extends React.Component {
                     textSectionBloc="We are passionate about 
                     soucing our produce locally and you'll always 
                     find the season on our menu. We especially love tropical produce 
-                    and we're always featuring the best of the tropics"
+                    and we're always featuring the best of the tropics !"
                     imageSectionBloc={imageTarteFlambee}
-                    linkSectionBloc="Unsere Feintkostladen entdecken."
+                    linkSectionBloc="Unsere Feintkostladen entdecken !"
                 />
             </div>
         )
