@@ -45,7 +45,7 @@ class HomePage extends React.Component {
                     find the season on our menu. We especially love tropical produce 
                     and we're always featuring the best of the tropics"
                     imageSectionBloc={imageTarteFlambee}
-                    linkSectionBloc="Unsere Feintkostladen entdecken !"
+                    linkSectionBloc="Unsere Feintkostladen entdecken."
                 />
             </div>
         )
