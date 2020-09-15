@@ -22,7 +22,7 @@ class HomePage extends React.Component {
                     altAttribute="Black Logo of Tartes Cézanne : Man with hat"
                     titleBlocPresentation="Essen ist nur ein Bedürfnis. Genießen ist eine Kunst."
                     figcaption="Duc de La Rochefoucault"
-                    textButton="Wo wir sind"
+                    textButton="Wo wir sind ?"
                 >
                     <NavBar />
                 </PresentationBloc>
