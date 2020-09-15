@@ -45,6 +45,7 @@ class HomePage extends React.Component {
                     soucing our produce locally and you'll always 
                     find the season on our menu. We especially love tropical produce 
 <<<<<<< HEAD
+<<<<<<< HEAD
                     and we're always featuring the best of the tropics"
                     imageSectionBloc={imageTarteFlambee}
                     linkSectionBloc="Unsere Feintkostladen entdecken"
@@ -54,6 +55,11 @@ class HomePage extends React.Component {
                     imageSectionBloc={imageTarteFlambee}
                     linkSectionBloc="Unsere Feintkostladen entdecken."
 >>>>>>> parent of 458e88c... Revert "Changes for git revert training"
+=======
+                    and we're always featuring the best of the tropics !"
+                    imageSectionBloc={imageTarteFlambee}
+                    linkSectionBloc="Unsere Feintkostladen entdecken !"
+>>>>>>> parent of cbf7fd3... test
                     test="../../assets/images/background_bloc_section.jpg"
                 />
             </div>
