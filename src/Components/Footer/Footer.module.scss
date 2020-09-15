@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+.footer {
+    clear: both;
+    position: relative;
+    height: 220px;
+    background-color: rgba(4, 128, 4, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // font-family: 'Parisienne', cursive;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 17px;
+    color: ivory;
+}
+
+.list {
+    margin: 0 10px 0 10px;
+    width: 450px;
+    height: auto;
+    ul li {
+        line-height: 25px;
+        a {
+            text-decoration: none;
+            color: ivory;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+}
