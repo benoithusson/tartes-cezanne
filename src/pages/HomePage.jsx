@@ -36,6 +36,7 @@ class HomePage extends React.Component {
                     imageSectionBloc={imageCroissants}
                     flexDirectionDefault="row-reverse"
                     linkSectionBloc="Wo wir sind ?"
+                    test="../../assets/images/background_bloc_section.jpg"
                 />
 
                 <SectionBloc
