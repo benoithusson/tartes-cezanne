@@ -22,7 +22,7 @@ class HomePage extends React.Component {
                     altAttribute="Black Logo of Tartes Cézanne : Man with hat"
                     titleBlocPresentation="Essen ist nur ein Bedürfnis. Genießen ist eine Kunst."
                     figcaption="Duc de La Rochefoucault"
-                    textButton="Wo wir sind"
+                    textButton="Wo wir sind ?"
                 >
                     <NavBar />
                 </PresentationBloc>
@@ -44,9 +44,29 @@ class HomePage extends React.Component {
                     textSectionBloc="We are passionate about 
                     soucing our produce locally and you'll always 
                     find the season on our menu. We especially love tropical produce 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 1f24d44... test 2
+                    and we're always featuring the best of the tropics"
+                    imageSectionBloc={imageTarteFlambee}
+                    linkSectionBloc="Unsere Feintkostladen entdecken"
+                    yolo="test"
+<<<<<<< HEAD
+=======
+                    and we're always featuring the best of the tropics."
+                    imageSectionBloc={imageTarteFlambee}
+                    linkSectionBloc="Unsere Feintkostladen entdecken."
+>>>>>>> parent of 458e88c... Revert "Changes for git revert training"
+=======
                     and we're always featuring the best of the tropics !"
                     imageSectionBloc={imageTarteFlambee}
                     linkSectionBloc="Unsere Feintkostladen entdecken !"
+>>>>>>> parent of cbf7fd3... test
+=======
+>>>>>>> parent of 1f24d44... test 2
+                    test="../../assets/images/background_bloc_section.jpg"
                 />
             </div>
         )
