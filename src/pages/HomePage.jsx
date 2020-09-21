@@ -48,6 +48,7 @@ class HomePage extends React.Component {
                     imageSectionBloc={imageTarteFlambee}
                     linkSectionBloc="Unsere Feintkostladen entdecken !"
                     test="../../assets/images/background_bloc_section.jpg"
+                    test2="../../assets/images/background_bloc_section.jpg"
                 />
             </div>
         )
