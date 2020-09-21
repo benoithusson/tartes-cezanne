@@ -5,6 +5,7 @@ import SectionBloc from '../Components/SectionBloc/SectionBloc';
 import imageCroissants from '../assets/images/croissants.jpg';
 import imageTarteFlambee from '../assets/images/tarte-flambee.jpg';
 import styles from './HomePage.module.scss';
+import { presentationBloc } from '../assets/js/content';
 
 class HomePage extends React.Component {
 
@@ -18,11 +19,12 @@ class HomePage extends React.Component {
             <div className={styles.homePageWrapper}>
 
                 <PresentationBloc
-                    logo="Tartes Cezanne"
-                    altAttribute="Black Logo of Tartes Cézanne : Man with hat"
-                    titleBlocPresentation="Essen ist nur ein Bedürfnis. Genießen ist eine Kunst."
-                    figcaption="Duc de La Rochefoucault"
-                    textButton="Wo wir sind ?"
+                    // logo={presentationBloc.logo}
+                    // altAttribute={presentationBloc.altAttribute}
+                    // titleBlocPresentation={presentationBloc.titleBlocPresentation}
+                    // figcaption="Duc de La Rochefoucault"
+                    // textButton="Wo wir sind ?"
+                    
                 >
                     <NavBar />
                 </PresentationBloc>
